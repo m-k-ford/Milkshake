@@ -1,0 +1,55 @@
+name: milkshake
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
+  dartz: ^0.10.1
+  flutter_bloc: ^8.0.1
+  firebase_auth: ^3.4.1
+  firebase_core: ^1.19.1
+  firebase_storage: ^10.3.1
+  cloud_firestore: ^3.2.1
+  internet_connection_checker: ^0.0.1+4
+  flutter_native_splash: ^2.2.9
+
+flutter_native_splash:
+  color: "#ff8caf"
+  image: assets/images/milkshake-cover.png
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/milkshake-cover.png  
+
+  fonts:
+    - family: Milkshake
+      fonts:
+        - asset: assets/fonts/Milkshake-400.ttf
+    - family: Kanit
+      fonts:
+        - asset: assets/fonts/kanit/Kanit-Bold.ttf
+        - asset: assets/fonts/kanit/Kanit-Italic.ttf
+        - asset: assets/fonts/kanit/Kanit-Light.ttf
+        - asset: assets/fonts/kanit/Kanit-Regular.ttf
+  
